@@ -1,0 +1,159 @@
+.container-2{
+  background-image: url(https://archive-media-0.nyafuu.org/wg/image/1458/90/1458909961323.jpg);
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  padding:250px;
+}
+.inner-content{
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tag-1{
+  font-size: 85px;
+ font-family: 'Courgette', cursive;
+  color: #f4a548;
+  padding-bottom: 10px;
+}
+.tag-2{
+  font-size: 40px;
+  font-family: 'Marck Script', cursive;
+  color: #fa744f;
+  margin-top: 20px;
+}
+.button {
+	background-color:#44c767;
+	border-radius:18px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#fff;
+	font-family:Verdana;
+	font-size:17px;
+	padding:17px 29px;
+	text-decoration:none;
+	text-shadow:0px 0px 5px #2f6627;
+  margin-top: 30px;
+}
+.button:hover {
+	background-color:#5cbf2a;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+.contact{
+  text-align: center;
+  padding:20px;
+
+}
+.social-icon{
+  padding: 5px;
+}
+.credit{
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+}
+.navbar-brand{
+  font-family: 'Courgette', cursive;
+
+  font-size: 30px;
+}
+/* Login Section */
+
+body, html {
+  height: 100%;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("https://wallpaperaccess.com/full/14358.jpg");
+  /* Control the height of the image */
+  min-height: 380px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 95%;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+h1,h2,h3,h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* about Section */
+#abouts {
+  background-color: #162447;
+  color: #fff;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.about-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.about-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}

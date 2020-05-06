@@ -1,0 +1,61 @@
+body{
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .box{
+      width: 19rem;
+      padding: 1.5rem;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      background: #000;
+      text-align: center;
+      border-radius: 5%;
+  }
+  
+  .box input[type="email"], .box input[type="password"]{
+            border:0;
+            background: none;
+            display: block;
+            margin:1.25rem auto;
+            text-align: center;
+            border: .125rem solid #d72323;
+            padding: 1rem .625rem;
+            width: 12.5rem;
+            outline: none;
+            color: white;
+            border-radius: 1.5rem;
+            transition: .25s;
+  
+  }
+      .box input[type="email"]:focus, .box input[type="password"]:focus{
+          width: 18rem;
+          border-color: #d72323;
+  
+      }
+  .box input[type="submit"]{
+      border:0;
+            background: none;
+            display: block;
+            margin:1.25rem auto;
+            text-align: center;
+            border: .125rem solid #d72323;
+            padding: 1rem .625rem;
+            width: 7.5rem;
+            outline: none;
+            color: white;
+            border-radius: 1.5rem;
+  
+  }
+  .box input[type="submit"]:hover{
+      background: #d72323;
+  }
+  
+  h1{
+    color:  #d72323;
+  }
+  hr{
+    color: #3a4750;
+  }
