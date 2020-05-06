@@ -1,0 +1,126 @@
+<%-include('partials/header') %> 
+
+    <div class="wrapper d-flex align-items-stretch">
+    			<nav id="sidebar">
+    				<div class="p-4 pt-5">
+    		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/IMG-20200503-WA0018.jpg);"></a>
+              <!-- will receive this from app.js -->
+              <h3>Tushar Kumar</h3>
+    	        <ul class="list-unstyled components mb-5">
+    	          <li class="active">
+                  <div>
+                    <a id="homeSubmenu" data-toggle="collapse" href="#"aria-haspopup="true" aria-expanded="false" class="dropdown-toggle">Messages</a>
+                  </div>
+    	           
+                  <ul class="collapse list-unstyled dropdown-menu" aria-labelledby="homeSubmenu">
+                    <li>
+                        <a href="https://www.youtube.com/" class="dropdown-item">Personal</a>
+                    </li>
+                    <li>
+                        <a href="#"  class="dropdown-item">GroupChat</a>
+                    </li>
+
+    	            </ul>
+                 
+    	           
+    	          </li>
+    	          <li>
+    	              <a href="#">About</a>
+    	          </li>
+    	          <li>
+                  <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Send</a>
+                  <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="#">Teja</a>
+                    </li>
+                    <li>
+                        <a href="#">Yatharth</a>
+                    </li>
+                    <li>
+                        <a href="#">Neha</a>
+                    </li>
+                    <li>
+                        <a href="#">Vishal</a>
+                    </li>
+                    <li>
+                        <a href="#">Tushar</a>
+                    </li>
+
+
+                  </ul>
+    	          </li>
+
+    	          <li>
+                  <a href="#">Signout <i class="fas fa-sign-out-alt"></i></a>
+    	          </li>
+    	        </ul>
+
+
+
+    	      </div>
+        	</nav>
+
+
+
+      <div id="content" class="p-4 p-md-5">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom: 10px">
+           <div class="container-fluid">
+
+                <a href="#" class=" p-4 pt-3  img logo rounded-circle mb-0" style="background-image: url(images/IMG_20200503_124716.png);"></a>
+
+
+
+
+            <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="">
+          <div class="group">
+         <h2 class="mb-4">Group</h2>
+          </div>
+          <div class="box">
+            <%grouptexts.forEach(function(text){%>
+              <p><%=text.message%> </p>
+            <%});%>
+          
+
+        </div>
+
+          <form action="/" method="post">
+
+    <div class="form-group">
+
+      <div class="row">
+        <div class="col col-lg-10">
+      <input type="text" name="message" class="form-control" id="textMessage"  placeholder="Enter message">
+    </div>
+ 
+     <div class="col col-lg-2">
+        <button type="submit" class="btn btn-dark btn-radio">send <img src="https://img.icons8.com/nolan/32/filled-sent.png"/></button></div>
+      </div>
+    </div>
+
+      <small id="emailHelp" class="form-text text-muted">This message cannot be delted</small>
+  </form>
+</div>
+  </div>
+        </div>
+<%- include('partials/header') %> 
